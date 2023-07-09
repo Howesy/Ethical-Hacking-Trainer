@@ -1,0 +1,32 @@
+{
+  "name": "ethicalhackingtrainer",
+  "version": "1.0.0",
+  "description": "Ethical Hacking Trainer, Third year project for university.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node Source/Router.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Howesy/EthicalHackingTrainer.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Howesy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Howesy/EthicalHackingTrainer/issues"
+  },
+  "homepage": "https://github.com/Howesy/EthicalHackingTrainer#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mocha": "^10.2.0",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5"
+  }
+}

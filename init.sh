@@ -1,0 +1,2 @@
+npm test
+./init.sh
